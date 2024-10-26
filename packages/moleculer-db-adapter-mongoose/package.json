@@ -1,5 +1,5 @@
 {
-  "name": "moleculer-db-adapter-mongoose",
+  "name": "@luuduchieu/moleculer-db-adapter-mongoose",
   "version": "0.9.6",
   "description": "Mongoose adapter for Moleculer DB service",
   "main": "index.js",
@@ -17,10 +17,6 @@
     "microservice",
     "moleculer"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/moleculerjs/moleculer-db.git"
-  },
   "homepage": "https://github.com/moleculerjs/moleculer-db/tree/master/packages/moleculer-db-adapter-mongoose#readme",
   "author": "MoleculerJS",
   "license": "MIT",
@@ -53,5 +49,13 @@
   },
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "gitHead": "151f9ba237d3dc85162e675cbfd27df9539de4f1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luuduchieu/moleculer-db.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
